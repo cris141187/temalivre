@@ -47,7 +47,7 @@ class MainActivity3 : AppCompatActivity() {
             startActivity<MainActivity10>()
         }
 
-        btn1.setOnClickListener {
+        btn3.setOnClickListener {
             layout.setBackgroundColor(Color.RED)
             txtmsg.text = "RESPOSTA ERRADA !!!"
             txtmsg.setTextColor(Color.WHITE)
